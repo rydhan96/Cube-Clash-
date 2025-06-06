@@ -92,7 +92,7 @@ script = ExtResource("1_urp6f")
 position = Vector2(-1, 0)
 scale = Vector2(1.0625, 1.0625)
 sprite_frames = SubResource("SpriteFrames_bjha6")
-animation = &"crouch"
+animation = &"run"
 autoplay = "idle"
 
 [node name="CrouchCollision" type="CollisionShape2D" parent="."]
