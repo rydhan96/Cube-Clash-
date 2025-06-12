@@ -8,10 +8,10 @@ enum State { IDLE, RUNNING, JUMPING, FALLING, DASHING, SLIDING, CROUCHING }
 @export var input_dash: String = "ui_select"
 @export var input_crouch: String = "ui_down"
 
-@export var speed: float = 150
+@export var speed: float = 140
 @export var jump_velocity: float = -320.0
-@export var dash_speed: float = 300.0
-@export var dash_time: float = 0.2
+@export var dash_speed: float = 0
+@export var dash_time: float = 0.0
 @export var slide_time: float = 0.5
 
 var gravity = ProjectSettings.get_setting("physics/2d/default_gravity")
