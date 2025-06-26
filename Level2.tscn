@@ -3,7 +3,7 @@
 [ext_resource type="PackedScene" uid="uid://c343ycl543x37" path="res://player.tscn" id="2_wwdpc"]
 [ext_resource type="Texture2D" uid="uid://nr7ejsbv2m7m" path="res://Reference.png" id="3_6faey"]
 [ext_resource type="TileSet" uid="uid://gxlvir1b403x" path="res://Tilemap.tres" id="4_ex07k"]
-[ext_resource type="PackedScene" uid="uid://bih5skddgmaow" path="res://scenes/level_2.tscn" id="4_psxy2"]
+[ext_resource type="PackedScene" uid="uid://cik3uli6nb75t" path="res://Level3.tscn" id="4_psxy2"]
 [ext_resource type="PackedScene" uid="uid://bla5dkcpgtge4" path="res://portal.tscn" id="5_6x3wt"]
 
 [sub_resource type="WorldBoundaryShape2D" id="WorldBoundaryShape2D_dsnr4"]
@@ -11,7 +11,7 @@
 [node name="TestWorld" type="Node2D"]
 
 [node name="Player" parent="." instance=ExtResource("2_wwdpc")]
-position = Vector2(377, 467)
+position = Vector2(375, 470)
 metadata/_edit_group_ = true
 
 [node name="Camera2D" type="Camera2D" parent="Player"]
